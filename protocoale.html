@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body {
+    background: linear-gradient(to right, #819ba7, #afbdd8, #91bdca);
+    font-family: 'Poppins', sans-serif;
+}
+.mySlides {display: none}
+ul.a {
+  list-style-type: circle;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  align-items: center;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.searchBar{
+  width: 100px;
+  height: 30px;
+ color: black;
+}
+img{
+  height: 300px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a href="home.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="proiect.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DOTARI</a>
+    
+    <a href="program.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROGRAM MEDICI</a>
+    <a href="pret.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PRETURI</a>
+    <a href="protocoale.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROTOCOALE DE DIAGNOSTIC SI TRATAMENT</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROGRAMARI</a>
+
+    <div id="searchBox">
+      <input class="searchBar" type="text" id="input" placeholder="Search" />
+      <input type="button" id="searchBtn" value="Search" onclick="search();" />
+    </div>
+
+    
+
+    <div class="w3-dropdown-hover w3-hide-small">    
+    </div>
+    
+    
+  </div>
+  
+</div>
+<div class="w3-content" style="max-width:2000px;margin-top:46px" id="img">
+    <img src="oncologie2.jpg" style="width:100%">
+  <br><br><br>
+<h1>Recomandări clinice</h1>
+  <h2>Cancerul mamar</h2>
+  <p id="p">Stabilirea diagnosticului se bazează pe trei componente majore: examinarea clinică,
+    imagistică şi anatomopatologică. Examinarea clinică include palparea bimanuală a sânilor şi a
+    limfoganglionilor locoregionali. Examinarea imagistică implică efectuarea mamografiei bilaterale şi
+    a ecografiei ambilor sâni şi a limfoganglionilor locoregionali. Rezonanţa magnetică nucleară nu
+    este o procedură de rutină, dar poate fi luată în considerare în cazul în care există incertitudini
+    privind diagnosticul, ca de exemplu în cazul investigării unui ţesut mamar cu densitate mare, sau
+    atunci când există ganglioni axilari dar nu se poate obiectiva tumora primară de la nivelul sânului.
+    Diagnosticul anatomopatologic trebuie să se bazeze pe biopsia obţinută sub ghidaj manual sau
+    preferabil ultrasonografic sau stereotactic. Înainte de orice intervenţie chirurgicală trebuie
+    efectuată biopsia sau, dacă acesta nu este posibilă, măcar aspiraţia citologică cu ac subţire,
+    pentru confirmarea diagnosticului de carcinom.
+    Diagnosticul patologic final ar trebui stabilit în conformitate cu clasificarea WHO şi TNM,
+    după examinarea completă a tuturor specimenelor tisulare prelevate. 
+    Discuţiile în comisii multidisciplinare formate din oncolog medical, chirurg specializat în
+      chirurgia sânului, radioterapeut şi anatomopatolog trebuie să ducă la o strategie terapeutică care
+      să integreze tratamentul local şi terapia sistemică şi să stabilească secvenţa optimă a acestora
+      [III, B].
+      Trebuie luată în considerare şi componenta ereditară a cancerului mamar, iar unde este
+      cazul trebuie discutate măsurile profilactice ce decurg în urma sfatului genetic şi testării genetice a
+      pacientei [IV, B].</p>
+<h2 id="p">Cancerul de col uterin</h2>
+<p id="p">Diagnosticul patologic ar trebui bazat pe examinarea unei biopsii chirurgicale şi raportat în
+  conformitate cu clasificarea WHO. 
+  Pentru majoritatea pacientelor opţiunea standard este chimioterapia paliativă. În cazuri
+    selectate se poate face excizie chirurgicală largă (de obicei exentraţie) şi radioterapie.</p>
+<h2>Carcinomul endometrial</h2>
+
+Stabilirea diagnosticului de carcinom endometrial necesită confirmare histopatologică.
+    Raportarea trebuie realizată în conformitate cu clasificarea patologică WHO. Aproximativ 80% din
+    cancerele endometriale sunt de subtip endometroid. Alte subtipuri sunt carcinomul seros (5-10%),
+    cu celule clare (1-5%), mucinos, mixt, epidermoid, cu celule tranziţionale şi nediferenţiat.
+    Carcinosarcomul endometrial este considerat un subtip aparte, cu prognostic rezervat, al
+    carcinomului endometrial.
+
+Stadializarea carcinomului endometrial este chirurgicală. Manevrele absolut necesare
+      pentru o stadializare corectă sunt prelevarea de lichid peritoneal sau lichid de lavaj în vederea
+      evaluării citologice, explorarea atentă a întregii cavităţi abdominale şi a limfoganglionilor pelvieni şi
+      paraaortici, precum şi efectuarea histerectomiei totale cu salpingo-ooforectomie bilaterală. În
+      cazurile cu risc crescut se recomandă adeseori limfadenectomie retroperitoneală şi omentectomie
+      (pentru carcinoamele seroase), cu toate că influenţa acestor manevre asupra supravieţuirii este
+      controversată [III, B]. 
+</p>
+
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+  <a href="https://www.instagram.com" class="fa fa-instagram "></a>
+  <a href="https://www.snapchat.com" class="fa fa-snapchat w3-hover-opacity"></a>
+  <a href="https://ro.pinterest.com" class="fa fa-pinterest-p w3-hover-opacity"></a>
+  <a href="https://twitter.com/i/flow/login" class="fa fa-twitter w3-hover-opacity"></a>
+  <a href="https://ro.linkedin.com" class="fa fa-linkedin w3-hover-opacity"></a>
+  <p class="w3-medium"><i>Powered by Institutul de Oncologie</i></p>
+</footer>
+
+<script type="text/javascript">
+  const p = document.getElementById("p");
+
+  function search(){
+    let input = document.getElementById("input").value;
+
+    if(input !== ""){
+      let regExp = new RegExp(input, "gi");
+      p.innerHTML = (p.textContent).replace(regExp, "<mark>$&</mark>");
+    }
+  }
+</script>
+
+</body>
+</html>

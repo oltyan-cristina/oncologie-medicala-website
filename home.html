@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body {
+    background: linear-gradient(to right, #819ba7, #afbdd8, #91bdca);
+    font-family: 'Poppins', sans-serif;
+}
+.mySlides {display: none}
+ul.a {
+  list-style-type: circle;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  align-items: center;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.searchBar{
+  width: 100px;
+  height: 30px;
+ color: black;
+}
+video {
+  width: 50%;
+  height: auto;
+ 
+  margin: auto;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  align-items: center;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+img{
+  height: 300px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a href="home.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="proiect.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DOTARI</a>
+    
+    <a href="program.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROGRAM MEDICI</a>
+    <a href="pret.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PRETURI</a>
+    <a href="protocoale.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROTOCOALE DE DIAGNOSTIC SI TRATAMENT</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROGRAMARI</a>
+
+
+    <div id="searchBox">
+      <input class="searchBar" type="text" id="input" placeholder="Search" />
+      <input type="button" id="searchBtn" value="Search" onclick="search();" />
+    </div>
+
+    <div class="w3-dropdown-hover w3-hide-small">   
+      
+    </div>
+    
+  </div>
+  
+</div>
+<div class="w3-content" style="max-width:2000px;margin-top:46px" id="img">
+    <img src="oncologie2.jpg" style="width:100%">
+  <br><br><br>
+   <p id="p"><b>Cancerul</b> cunoscut sub denumirea științifică de tumoare malignă sau neoplasm malign, este un grup de boli ce implică dezvoltarea anormală a celulelor cu potențial de a invada sau a se răspândi în alte părți ale corpului.
+    Nu toate tumorile sunt canceroase; tumorile benigne nu se răspândesc la alte organe.
+    Posibile semne și simptome includ, printre altele: un nodul nou apărut, sângerări anormale, tuse prelungită, pierdere în greutate fără explicație și modificări ale scaunelor.
+    În timp ce aceste simptome pot indica existența cancerului, acestea pot apărea și din cauza altor probleme.
+    Există peste 100 de tipuri diferite de cancer care afectează corpul uman.
+    <h4><b>Cauze</b></h4>
+    <h6><b> * Substanțe chimice</b></h6>
+    Expunerea la anumite substanțe a fost legată de anumite tipuri de cancer. Aceste substanțe se numesc agenți cancerigeni.
+
+      Fumul de tutun, de exemplu provoacă 90% din cancerul pulmonar 
+      De asemenea, provoacă cancer în laringe, cap, gât, stomac, vezică, rinichi, esofag și pancreas.
+      Fumatul conține peste cincizeci de agenți cancerigeni cunoscuți, inclusiv nitrozamine și hidrocarburi aromatice policiclice
+      Tutunul este responsabil pentru aproximativ unul din cinci decese cauzate de cancer în întreaga lume și aproximativ unul din trei în lumea dezvoltată.
+      În Europa de Vest, 10% din cazurile de cancer la bărbați și 3% în cazurile de cancer la femei sunt atribuite expunerii la alcool, în special cancerele hepatice și ale tractului digestiv.
+
+<h6><b>* Dietă și stil de viață</b> </h6>
+<h6><b>* Radiații</b></h6>
+<h6><b>* Infecții virale</b></h6>
+<ul class="a">
+<li>Hepatita B și C - ambele conduc la cancer hepatic;</li>
+<li>Virusul Papilloma HPV - cancer cervical;</li>
+<li>Citomegalovirus - duce la apariția tumorilor pe creier chiar la tinerețe;</li>
+<li>Virusul Epstein-Barr - cancerul de sânge și al sistemului limfatic;</li>
+<li>Virusul XMRV - cancerul de prostată.</li>
+</ul>
+<h6><b>* Ereditate</b></h6>
+<h6><b>* Factori fizici</b></h6>
+<h6><b>* Cauze hormonale</b></h6>
+</p>
+<br><br><br>
+<video width="150" controls>
+  <source src="cancer.mp4" type="video/mp4">
+</video>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+  <a href="https://www.instagram.com" class="fa fa-instagram "></a>
+  <a href="https://www.snapchat.com" class="fa fa-snapchat w3-hover-opacity"></a>
+  <a href="https://ro.pinterest.com" class="fa fa-pinterest-p w3-hover-opacity"></a>
+  <a href="https://twitter.com/i/flow/login" class="fa fa-twitter w3-hover-opacity"></a>
+  <a href="https://ro.linkedin.com" class="fa fa-linkedin w3-hover-opacity"></a>
+  <p class="w3-medium"><i>Powered by Institutul de Oncologie</i></p>
+</footer>
+
+<script type="text/javascript">
+  const p = document.getElementById("p");
+
+  function search(){
+    let input = document.getElementById("input").value;
+
+    if(input !== ""){
+      let regExp = new RegExp(input, "gi");
+      p.innerHTML = (p.textContent).replace(regExp, "<mark>$&</mark>");
+    }
+  }
+</script>
+
+</body>
+</html>
